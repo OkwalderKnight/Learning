@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+}
+p {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

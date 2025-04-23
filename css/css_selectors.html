@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                text-align: center;
+                color: red;
+            }
+            #para1 {
+                text-align: center;
+                color: red;
+            }
+            .center {
+                text-align: center;
+                color: red;
+            }
+            p.center {
+                text-align: center;
+                color: red;
+            }
+            p.large {
+                font-size: 300%;
+            }
+            h1, 
+            h2, 
+            h3 {
+                text-align: center;
+                color: red;
+            }
+            p {
+                text-align: center;
+                color: blue;
+            }
+            body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }   
+
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            .topnav a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+            </style>
+            <div class="topnav">
+                <a class="active" href="home.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+            </div>
+    </head>
+    <body>
+        <h1>The CSS element Selector</h1>
+        <p>This is a paragraph</p>
+        <hr>
+        <h1>The CSS id Selector</h1>
+        <p id="para1">Hello World!</p>
+        <p>This paragraph is not affected by the style.</p>
+        <hr>
+        <h1>The CSS class Selector</h1>
+        <h2>Red and center-aligned heading.</h2>
+        <p class="center">Red and center-aligned paragraph.</p>
+        <h2 class="center">This heading will not be affected.</h2>
+        <p class="center">This paragraph will be red and center aligned.</p>
+        <h2>The CSS selector with 2 classes</h2>
+        <h3 class="center">This heading will not be affected</h3>
+        <p class="center">This paragrph will be red and center-aligned</p>
+        <p class="center large">This paragraph will be red, center-aligned,and in large font size</p>
+        <hr>
+    </body>
+</html>

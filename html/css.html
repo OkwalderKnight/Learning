@@ -1,0 +1,258 @@
+<html>
+
+  <head>
+            <link rel="icon" type="image/x-icon" href="Windows_Terminal_Logo.png">
+            <title>Code With Ryan</title>
+    <link rel="icon" type="image/x-icon" href="Windows_Terminal_Logo.png">
+    <title>Code With Ryan</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      </style>
+
+      <div class="topnav">
+          <a class="active" href="home.html">Home</a>
+           
+          <a href="#contact">Contact</a>
+          <a href="about.html">About</a>
+      </div>
+
+</head>
+<br>
+<br>
+<style>
+    a:link,
+    a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a:hover,
+    a:active {
+        background-color: red;
+    }
+</style>
+
+<body>
+
+    <button onclick="document.location='home.html'">Back to Home</button>
+
+    <hr>
+    <center>
+        <h1>HTML Styles-CSS</h1>
+    </center>
+
+    <a href="hsl.html">Go back to HSL Colors</a>
+    <div style="text-align: right;">
+        <a href="links.html">Go to HTML Links</a>
+    </div>
+    <hr>
+    <hr>
+
+
+    <p>
+        CSS stands for Cascading Style Sheets.<br>
+        CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+    </p>
+
+    <hr>
+    <h1>What is CSS?</h1>
+    <p>
+        Cascading Style Sheets (CSS) is used to format the layout of a webpage.<br>
+        With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are
+        positioned and laid out, what background images or background colors are to be used, different displays for
+        different devices and screen sizes, and much more!<br>
+        Tip: The word cascading means that a style applied to a parent element will also apply to all children elements
+        within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text
+        elements within the body will also get the same color (unless you specify something else)!<br>
+    </p>
+    <hr>
+    <h1>Using CSS</h1>
+    <p>
+        CSS can be added to HTML documents in 3 ways:
+    <ul>
+        <li>Inline - by using the style attribute inside HTML elements</li>
+        <li>Internal - by using a &lt;style&gt; element in the &lt;head&gt; section</li>
+        <li>External - by using a &lt;link&gt; element to link to an external CSS file</li>
+    </ul>
+    <hr>
+    <h1>Inline CSS</h1>
+    <br>
+    <h1 style="color:blue;">A Blue Heading</h1>
+    <p style="color:red;">A red paragraph.</p>
+
+    </p>
+
+    <style>
+        body {
+            background-color: powderblue;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+    </style>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+
+    <hr>
+    <h1>
+        External CSS
+    </h1>
+
+      <head>
+            <link rel="icon" type="image/x-icon" href="Windows_Terminal_Logo.png">
+            <title>Code With Ryan</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+
+    </body>
+    <hr>
+    <h1>
+        CSS Colors, Fonts and Sizes
+    </h1>
+    <style>
+        h1 {
+            color: blue;
+            font-family: verdana;
+            font-size: 300%;
+        }
+
+        p {
+            color: red;
+            font-family: courier;
+            font-size: 160%;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+
+    </body>
+    <hr>
+    <h1>
+        CSS Border
+    </h1>
+    <style>
+        p {
+            border: 2px solid powderblue;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1>This is a heading</h1>
+
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+
+    </body>
+    <hr>
+    <h1>CSS padding</h1>
+    <style>
+        p {
+            border: 2px solid powderblue;
+            padding: 30px;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1>This is a heading</h1>
+
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+
+    </body>
+    <hr>
+    <h1>
+        Css Margin
+    </h1>
+    <style>
+        p {
+            border: 2px solid powderblue;
+            margin: 50px;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1>This is a heading</h1>
+
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+
+    </body>
+
+    <hr>
+    <h1>Link to External CSS</h1>
+    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+    <hr>
+    <h1></h1>
+    <ul>
+
+        <li>Use the HTML style attribute for inline styling</li>
+        <li>Use the HTML &lt;style&gt; element to define internal CSS</li>
+        <li>Use the HTML &lt;link&gt; element to refer to an external CSS file</li>
+        <li>Use the HTML &lt;head&gt; element to store &lt;style&gt; and &lt;link&gt; elements</li>
+        <li>Use the CSS color property for text colors</li>
+        <li>Use the CSS font-family property for text fonts</li>
+        <li>Use the CSS font-size property for text sizes</li>
+        <li>Use the CSS border property for borders</li>
+        <li>Use the CSS padding property for space inside the border</li>
+        <li>Use the CSS margin property for space outside the border</li>
+
+    </ul>
+
+</body>
+
+</html>
